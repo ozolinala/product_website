@@ -20,7 +20,7 @@ const template = document.querySelector("template").content;
 const myCopy = template.cloneNode(true);
 //change some content
 myCopy.querySelector("a").textContent = oneBrand.brandname;
-myCopy.querySelector("a").href = `productList.html?brandname=${oneBrand.brandname}`;
+myCopy.querySelector("a").href = `productspage.html?brandname=${oneBrand.brandname}`;
 //find the correct parent
 
 //find the parent

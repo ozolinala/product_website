@@ -36,7 +36,7 @@ function showProduct(product) {
   ).textContent = `${product.brandname} ${product.usagetype} `;
   copy.querySelector(".price").textContent = `${product.price} DKK`;
 
-  copy.querySelector("h3").textContent = product.productdisplayname;
+  copy.querySelector("h2").textContent = product.productdisplayname;
   if (product.soldout) {
     copy.querySelector("article").classList.add("soldOut");
   }
